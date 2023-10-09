@@ -72,28 +72,23 @@ public class Main {
                     String ID = ((Node) fstNm.item(0)).getNodeValue();
                     System.out.println("id : " + ID);
 
-                    //
-
                     NodeList lstNmElmntLst2 = fstElmnt.getElementsByTagName("firstName");
                     Element lstNmElmnt2 = (Element) lstNmElmntLst2.item(0);
                     NodeList lstNm2 = lstNmElmnt2.getChildNodes();
                     String FirstName = ((Node) lstNm2.item(0)).getNodeValue();
                     System.out.println("firstName : " + FirstName);
-                    //
 
                     NodeList lstNmElmntLst3 = fstElmnt.getElementsByTagName("lastName");
                     Element lstNmElmnt3 = (Element) lstNmElmntLst3.item(0);
                     NodeList lstNm3 = lstNmElmnt3.getChildNodes();
                     String LastName = ((Node) lstNm3.item(0)).getNodeValue();
                     System.out.println("lastName : " + LastName);
-                    //
 
                     NodeList lstNmElmntLst4 = fstElmnt.getElementsByTagName("country");
                     Element lstNmElmnt4 = (Element) lstNmElmntLst4.item(0);
                     NodeList lstNm4 = lstNmElmnt4.getChildNodes();
                     String Country = ((Node) lstNm4.item(0)).getNodeValue();
                     System.out.println("country : " + Country);
-                    //
 
                     NodeList lstNmElmntLst5 = fstElmnt.getElementsByTagName("age");
                     Element lstNmElmnt5 = (Element) lstNmElmntLst5.item(0);
